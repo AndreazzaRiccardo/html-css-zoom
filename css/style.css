@@ -31,13 +31,12 @@ img {
 .video-container {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 95%;
     height: 87vh;
     margin: 0 auto;
     overflow: auto;
     justify-content: space-between;
     padding: 2rem 2rem 1rem;
-
 }
 
 .video-card {
@@ -46,11 +45,18 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border: 1px solid white;
     margin: 0.6rem 0;
+    position: relative;
+}
 
-
-
+.video-container span {
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.2rem;
+    font-size: 0.7rem;
 }
 
 
