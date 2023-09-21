@@ -12,10 +12,18 @@ img {
 
 /* COMMON */
 
+.green {
+    color: green;
+}
+
 .wrapper {
     width: 100%;
     height: 100vh;
     background-color: black;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
 }
 
 /* HEADER */
@@ -61,12 +69,37 @@ img {
 
 
 /* FOOTER */
+
     footer {
         background-color:#222222 ;
         height:8vh;
         color: white;
         display: flex;
-        
+        justify-content: space-between;
     }
+
+    nav p {
+        font-size: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    footer nav {
+        display: flex;
+        gap:1rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    nav div {
+        padding: 0 0.5rem;
+    }
+
+    .end-meet {
+        color: red;
+        background-color:#4A4A4A;
+    }
+
+    
+
 
    
